@@ -22,7 +22,6 @@
          var lunchArray = $scope.lunchList.split(',');
          var lunchCount = 0;
          for (var i = 0; i < lunchArray.length; i++) {
-            console.log("Evaluation lunch item: " + lunchArray[i] + " " + lunchArray[i].replace(/\s/g,'').length);
             if (lunchArray[i].replace(/\s/g, '').length) {
                lunchCount += 1;
             }
